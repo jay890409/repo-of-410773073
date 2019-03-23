@@ -29,15 +29,43 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-#practice 1
+#practice 1: creating an object with a value
 ```{r}
 2 -> a
 b <- 3
-```
-#practice 2
-```{r}
+
 65 + a
 ```
+
+#practice 2: to check the value of an object, type the name out(special names repuire-> `name` ) 
+```{r}
+47->c
+c
+```
+
+#practice 3: if you want to name an object with special names, use the symble -> `
+```{r}
+`107 semester grade`<-80
+
+10+`107 semester grade`
+```
+
+#practice 4: to check the class of an object< use -> class()
+```{r}
+a<- 10 # this will override the previous value assigned to a
+
+class(a)
+
+a2<- 10L # L means its an integer
+
+class(a2)
+```
+
+#practice 5:
+```{r}
+
+```
+
 
 
 
