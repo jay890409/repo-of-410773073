@@ -29,7 +29,15 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+#practice 1
 ```{r}
 2 -> a
 b <- 3
 ```
+#practice 2
+```{r}
+65 + a
+```
+
+
+
