@@ -63,6 +63,11 @@ class(a2)
 
 #practice 5:
 ```{r}
+avector<- c(1,1,1)
+a2vector<- c(1L,1L,1L)
+
+class(avector)
+class(a2vector) #type of a value inside th vector
 
 ```
 
